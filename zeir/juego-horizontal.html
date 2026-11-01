@@ -41,6 +41,24 @@ body{position:relative;font-family:RZI,Inter,'Segoe UI',Arial,sans-serif;color:#
 .bg .dot{position:absolute;bottom:-20px;width:6px;height:6px;border-radius:50%;background:var(--hi);box-shadow:0 0 12px var(--glow);animation:rise linear infinite;opacity:0}
 @keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.9}100%{transform:translateY(-120vh);opacity:0}}
 .bg .vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 45%,rgba(0,0,0,.65))}
+.bg{background:radial-gradient(circle at var(--cx) var(--cy),#1a0f33 0%,#0b0818 45%,#05040b 100%)}
+.bg .grid,.bg .streak{display:none}
+.bg .rays{position:absolute;left:calc(var(--cx) - var(--R));top:calc(var(--cy) - var(--R));width:calc(var(--R)*2);height:calc(var(--R)*2);background:repeating-conic-gradient(from var(--rr,0deg),rgba(168,121,255,.13) 0deg 2.2deg,transparent 2.2deg 7deg);-webkit-mask-image:radial-gradient(circle,#000 0%,rgba(0,0,0,.55) 22%,transparent 48%);mask-image:radial-gradient(circle,#000 0%,rgba(0,0,0,.55) 22%,transparent 48%);animation:rays 60s linear infinite}
+@property --rr{syntax:'<angle>';inherits:false;initial-value:0deg}
+@keyframes rays{to{--rr:360deg}}
+.bg .burst{position:absolute;inset:0;background:radial-gradient(circle at var(--cx) var(--cy),rgba(198,170,255,.30) 0%,rgba(123,47,242,0.22) 14%,rgba(123,47,242,.10) 32%,transparent 58%);animation:burst 6s ease-in-out infinite}
+@keyframes burst{50%{opacity:.75}}
+.bg .smoke{position:absolute;border-radius:50%;filter:blur(70px);opacity:.35;background:radial-gradient(circle,rgba(123,47,242,.55),transparent 65%)}
+.bg .s1{width:60%;height:60%;left:-12%;bottom:-18%;animation:drift 18s ease-in-out infinite}
+.bg .s2{width:55%;height:55%;right:-14%;top:-16%;animation:drift 22s ease-in-out infinite reverse}
+@keyframes drift{50%{transform:translate(6%,-5%) scale(1.08)}}
+.bg .br{position:absolute;border-radius:50%;background:linear-gradient(90deg,transparent,rgba(10,6,22,.85) 20%,rgba(30,16,62,.9) 50%,rgba(10,6,22,.85) 80%,transparent);filter:blur(2px);box-shadow:0 -2px 0 rgba(168,121,255,.18);animation:brush 9s ease-in-out infinite}
+@keyframes brush{50%{translate:2% -1%}}
+.bg .sl{position:absolute;left:-40%;height:2px;background:linear-gradient(90deg,transparent,rgba(198,170,255,.55),transparent);transform:rotate(-24deg);animation:sl linear infinite;opacity:.7}
+@keyframes sl{0%{left:-45%}100%{left:120%}}
+.bg .mark{opacity:.05}
+.bg .grain{position:absolute;inset:0;opacity:.18;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.bg .vig{background:radial-gradient(ellipse at var(--cx) var(--cy),transparent 40%,rgba(0,0,0,.7))}
 </style></head><body>
 <div class="frame" style="left:32px;top:300px;width:560px;height:315px"><b></b><b></b><b></b><b></b></div>
 <div class="plate in" style="left:32px;top:627px;width:560px;height:96px;--from:-40px"><div class="glow"></div>
