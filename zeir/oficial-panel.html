@@ -122,4 +122,4 @@ window.RycerzPlayer={seek(t){manual=true;renderAt(t);},play(){manual=false;start
 addEventListener('resize',()=>{fit();fitText();});addEventListener('message',e=>{if(e.source!==parent||!e.data||e.data.type!=='rycerz-player-config')return;window.RycerzPlayer.configure(e.data.config);});rebuild();renderAt(2);requestAnimationFrame(frame);
 })();
 
-</script></body></html>
+</script><script id="rz-fit">(function(){function f(){var b=document.body;if(!b)return;b.style.transform="";var cs=getComputedStyle(b),W=parseFloat(cs.width),H=parseFloat(cs.height),s=Math.min(innerWidth/W,innerHeight/H);if(!isFinite(s)||Math.abs(s-1)<0.002)return;document.documentElement.style.overflow="hidden";b.style.transformOrigin="0 0";b.style.transform="translate("+((innerWidth-W*s)/2)+"px,"+((innerHeight-H*s)/2)+"px) scale("+s+")";}addEventListener("resize",f);addEventListener("load",f);f();})();</script></body></html>
