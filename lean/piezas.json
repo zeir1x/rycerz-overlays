@@ -1,0 +1,119 @@
+{
+ "name": "LEAN",
+ "role": "Fortnite · Tier 2",
+ "socials": [],
+ "pieces": [
+  {
+   "id": "oficial-panel",
+   "label": "Oficial · panel rotativo",
+   "w": 960,
+   "h": 248,
+   "group": "oficial"
+  },
+  {
+   "id": "oficial-camara",
+   "label": "Oficial · cámara + panel",
+   "w": 960,
+   "h": 760,
+   "group": "oficial"
+  },
+  {
+   "id": "oficial-horizontal",
+   "label": "Oficial · juego horizontal",
+   "w": 1920,
+   "h": 1080,
+   "group": "oficial"
+  },
+  {
+   "id": "oficial-tiktok",
+   "label": "Oficial · TikTok 9:16",
+   "w": 1080,
+   "h": 1920,
+   "group": "oficial"
+  },
+  {
+   "id": "juego-horizontal",
+   "label": "Juego · horizontal",
+   "w": 1920,
+   "h": 1080,
+   "group": "juego"
+  },
+  {
+   "id": "tiktok-animado",
+   "label": "TikTok · fondo animado + overlay oficial",
+   "w": 1080,
+   "h": 1920,
+   "group": "juego"
+  },
+  {
+   "id": "tiktok-animado-sincam",
+   "label": "TikTok · fondo animado sin cámara",
+   "w": 1080,
+   "h": 1920,
+   "group": "juego"
+  },
+  {
+   "id": "juego-vertical",
+   "label": "Juego · vertical TikTok",
+   "w": 1080,
+   "h": 1920,
+   "group": "juego"
+  },
+  {
+   "id": "fondo-vertical",
+   "label": "Fondo vertical animado",
+   "w": 1080,
+   "h": 1920,
+   "group": "juego"
+  },
+  {
+   "id": "solo-marco",
+   "label": "Solo marco de cámara",
+   "w": 1280,
+   "h": 720,
+   "group": "juego"
+  },
+  {
+   "id": "solo-redes",
+   "label": "Solo redes del jugador",
+   "w": 760,
+   "h": 130,
+   "group": "juego"
+  },
+  {
+   "id": "marco-camara",
+   "label": "Marco de cámara",
+   "w": 1280,
+   "h": 720,
+   "group": "juego"
+  },
+  {
+   "id": "panel-rotativo",
+   "label": "Panel rotativo",
+   "w": 960,
+   "h": 248,
+   "group": "juego"
+  },
+  {
+   "id": "empezando",
+   "label": "Comenzamos en breve",
+   "w": 1920,
+   "h": 1080,
+   "group": "pantalla"
+  },
+  {
+   "id": "pausa",
+   "label": "Volvemos enseguida",
+   "w": 1920,
+   "h": 1080,
+   "group": "pantalla"
+  },
+  {
+   "id": "final",
+   "label": "Gracias por ver",
+   "w": 1920,
+   "h": 1080,
+   "group": "pantalla"
+  }
+ ]
+}
