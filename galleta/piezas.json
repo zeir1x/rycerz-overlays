@@ -25,6 +25,13 @@
  ],
  "pieces": [
   {
+   "id": "tiktok-armado",
+   "label": "TikTok · panel arriba del juego + placa oficial abajo",
+   "w": 1080,
+   "h": 1920,
+   "group": "tiktok"
+  },
+  {
    "id": "oficial-panel",
    "label": "Oficial · panel rotativo",
    "w": 960,
