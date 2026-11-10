@@ -1,6 +1,6 @@
 {
  "name": "GALLETA",
- "role": "Fortnite Player",
+ "role": "Fortnite · Tier 2",
  "socials": [
   {
    "k": "instagram",
@@ -20,7 +20,7 @@
   {
    "k": "twitch",
    "label": "Twitch",
-   "handle": "@elrg"
+   "handle": "@Galletafv1"
   }
  ],
  "pieces": [
@@ -67,6 +67,13 @@
    "group": "juego"
   },
   {
+   "id": "tiktok-animado-sincam",
+   "label": "TikTok · fondo animado sin cámara",
+   "w": 1080,
+   "h": 1920,
+   "group": "juego"
+  },
+  {
    "id": "juego-vertical",
    "label": "Juego · vertical TikTok",
    "w": 1080,
@@ -78,6 +85,20 @@
    "label": "Fondo vertical animado",
    "w": 1080,
    "h": 1920,
+   "group": "juego"
+  },
+  {
+   "id": "solo-marco",
+   "label": "Solo marco de cámara",
+   "w": 1280,
+   "h": 720,
+   "group": "juego"
+  },
+  {
+   "id": "solo-redes",
+   "label": "Solo redes del jugador",
+   "w": 760,
+   "h": 130,
    "group": "juego"
   },
   {
