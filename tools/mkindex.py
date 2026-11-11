@@ -6,7 +6,7 @@ for d in sorted(os.listdir(root)):
     f=os.path.join(root,d,'piezas.json')
     if os.path.isfile(f): members.append((d,json.load(open(f))))
 members.sort(key=lambda m:(0 if m[0]=='zeir' else 1,m[0]))
-GROUPS={'oficial':'Overlay oficial','juego':'Para jugar en directo','pantalla':'Pantallas de escena'}
+GROUPS={'tiktok':'TikTok vertical (armado)','oficial':'Overlay oficial','juego':'Para jugar en directo','pantalla':'Pantallas de escena'}
 cards=[]
 for slug,m in members:
     rows=[]
