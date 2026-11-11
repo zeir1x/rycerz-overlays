@@ -1,10 +1,9 @@
 <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TikTok · cámara arriba + juego, sin fondo</title>
 <style>html,body{margin:0;background:transparent;overflow:hidden}#c{position:relative;width:1080px;height:1920px;transform-origin:0 0}
 iframe{position:absolute;border:0;background:transparent}
-#rot{left:336px;top:142px;width:408px;height:105px}
 #cam{left:0;top:252px;width:1080px;height:608px}
 #ofi{left:0;top:1472px;width:1080px;height:279px}
 </style></head><body>
-<div id="c"><iframe id="rot" src="panel-rotativo.html" allowtransparency="true" scrolling="no"></iframe><iframe id="cam" src="solo-marco.html" allowtransparency="true" scrolling="no"></iframe><iframe id="ofi" src="oficial-panel.html" allowtransparency="true" scrolling="no"></iframe></div>
+<div id="c"><iframe id="cam" src="solo-marco.html" allowtransparency="true" scrolling="no"></iframe><iframe id="ofi" src="oficial-panel.html" allowtransparency="true" scrolling="no"></iframe></div>
 <script>function f(){var s=Math.min(innerWidth/1080,innerHeight/1920),c=document.getElementById('c');c.style.transform='translate('+((innerWidth-1080*s)/2)+'px,'+((innerHeight-1920*s)/2)+'px) scale('+s+')';}addEventListener('resize',f);f();</script>
 </body></html>
