@@ -4,13 +4,6 @@
  "socials": [],
  "pieces": [
   {
-   "id": "tiktok-armado",
-   "label": "TikTok · panel arriba del juego + placa oficial abajo",
-   "w": 1080,
-   "h": 1920,
-   "group": "tiktok"
-  },
-  {
    "id": "oficial-panel",
    "label": "Oficial · panel rotativo",
    "w": 960,
@@ -121,6 +114,34 @@
    "w": 1920,
    "h": 1080,
    "group": "pantalla"
+  },
+  {
+   "id": "tiktok-armado",
+   "label": "TikTok · juego al centro, sin fondo",
+   "w": 1080,
+   "h": 1920,
+   "group": "tiktok"
+  },
+  {
+   "id": "tiktok-armado-fondo",
+   "label": "TikTok · juego al centro, con fondo animado",
+   "w": 1080,
+   "h": 1920,
+   "group": "tiktok"
+  },
+  {
+   "id": "tiktok-armado-camara",
+   "label": "TikTok · cámara arriba + juego, sin fondo",
+   "w": 1080,
+   "h": 1920,
+   "group": "tiktok"
+  },
+  {
+   "id": "tiktok-armado-camara-fondo",
+   "label": "TikTok · cámara arriba + juego, con fondo animado",
+   "w": 1080,
+   "h": 1920,
+   "group": "tiktok"
   }
  ]
 }
